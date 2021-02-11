@@ -10,6 +10,15 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-4">
                 <h1>{{ $repository->url }}</h1>
                 <div>{{ $repository->description }}</div>
+
+                <p class="text-right mb-4">
+                    <a
+                        href="{{ url('repositories') }}"
+                        class="bg-blue-500 text-white font-bold py-2 px-4 rounded-md text-xs"
+                    >
+                       Volver
+                    </a>
+                </p>
             </div>
         </div>
     </div>
